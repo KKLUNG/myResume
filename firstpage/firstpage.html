@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./js/firstpage.js"></script>
+    <link rel="stylesheet" href="css/firstpage.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+
+<body onload="trans1()">
+    <div class="header">
+        <h1>古貴龍</h1>
+    </div>
+
+    <div class="row">
+        <div class="col-3 col-s-3 menu">
+            <ul>
+                <li onclick="trans1()">首頁</li>
+                <li onclick="trans2()">關於我</li>
+                <li onclick="trans2()">fib</li>
+                <!-- <li onclick="trans3()">The Island</li>
+                <li onclick="trans4()">The Food</li> -->
+            </ul>
+        </div>
+
+        <div class="col-6 col-s-9">
+            <h1 class="Flight"></h1>
+            <p class="Flight"></p>
+        </div>
+
+        <div class="col-3 col-s-12">
+            <div class="aside">
+                <h2>友善連結</h2>
+                <button type="button" class="btn btn-outline-success" onclick="link('google')">google</button>
+                <button type="button" class="btn btn-outline-success" onclick="link('yahoo')">yahoo</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Resize the browser window to see how the content respond to the resizing.</p>
+    </div>
+</body>
+
+</html>
